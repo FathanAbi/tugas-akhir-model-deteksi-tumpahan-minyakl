@@ -59,9 +59,9 @@ def Augment_data (x_train,y_train, n_category, n_patch, n_band, num_per_category
     data_augment=np.zeros((n_category*num_per_category, n_patch, n_patch, n_band))
     label_augment =np.zeros((n_category*num_per_category),dtype=int)
     
-    number = x_train.shape[0]
-    n = number//n_category
-    num_per_class = num_per_category//n
+    number = x_train.shape[0] # jumlah original sample
+    n = number//n_category # banyak nya sample per class
+    num_per_class = num_per_category//n # banyaknya sample per class setelah augmentasi
     #number_need = (num_per_category-num_per_class)//num_per_class
     #print ("number need per class: ", number_need)
     #rotation 
