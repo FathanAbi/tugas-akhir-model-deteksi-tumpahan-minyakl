@@ -1,5 +1,7 @@
 __pycache__/
 .ipynb_checkpoints/
 myenv/
+runs/
+models/
 Hyperspectral oil spill detection datasets/
 Hyperspectral oil spill detection datasets.rar
