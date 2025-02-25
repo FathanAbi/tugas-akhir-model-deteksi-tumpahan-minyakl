@@ -52,7 +52,7 @@ def createSample(hsi, patch_size, num_per_class):
         selected_rows = matrix[range(x_pos,x_pos+2*half_patch+1), :]
         selected_patch_0[i] = selected_rows[:, range(y_pos, y_pos+2*half_patch+1)]
 
-        print(x_pos, y_pos, random_indices_0[i][0], random_indices_0[i][1])
+        # print(x_pos, y_pos, random_indices_0[i][0], random_indices_0[i][1])
 
     for i in range (n): #if padded the index are changing
         # x_pos = random_indices_0[i][0] - half_patch
@@ -62,7 +62,7 @@ def createSample(hsi, patch_size, num_per_class):
         selected_rows = matrix[range(x_pos,x_pos+2*half_patch+1), :]
         selected_patch_1[i] = selected_rows[:, range(y_pos, y_pos+2*half_patch+1)]
 
-        print(x_pos, y_pos, random_indices_1[i][0], random_indices_1[i][1])
+        # print(x_pos, y_pos, random_indices_1[i][0], random_indices_1[i][1])
 
     i = 0
     
