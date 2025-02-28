@@ -21,10 +21,10 @@ def createSample(hsi, patch_size, num_per_class):
     y = len(one_indices)
 
     random_indices_0 = random.sample(zero_indices, k=num_per_class)
-    print("5 Randomly chosen 0 indices:", random_indices_0)
+    print(f"{num_per_class} Randomly chosen 0 indices: {random_indices_0}")
 
     random_indices_1 = random.sample(one_indices, k=num_per_class)
-    print("5 Randomly chosen 1 indices:", random_indices_1)
+    print(f"{num_per_class} Randomly chosen 1 indices: {random_indices_1}")
 
     data = training_hsi.img
     patch = patch_size
@@ -41,8 +41,8 @@ def createSample(hsi, patch_size, num_per_class):
    
 
     matrix=zeroPadding.zeroPadding_3D(data,half_patch) #add 0 in every side of the data
-    print(data.shape)
-    print(matrix.shape)
+    # print(data.shape)
+    # print(matrix.shape)
 
     for i in range (n): #if padded the index are changing
         # x_pos = random_indices_0[i][0] - half_patch
@@ -67,16 +67,16 @@ def createSample(hsi, patch_size, num_per_class):
     i = 0
     
 
-    print("seed pixel in data class 0")
-    print(data[random_indices_0[i][0], random_indices_0[i][1]]) # sample seed pixel
+    # print("seed pixel in data class 0")
+    # print(data[random_indices_0[i][0], random_indices_0[i][1]]) # sample seed pixel
 
-    print("seed pixel in selected patch class 0")
-    print(selected_patch_0[i][half_patch][half_patch])
+    # print("seed pixel in selected patch class 0")
+    # print(selected_patch_0[i][half_patch][half_patch])
 
-    print("seed pixel in data class 1")
-    print(data[random_indices_1[i][0], random_indices_1[i][1]]) # sample seed pixel
+    # print("seed pixel in data class 1")
+    # print(data[random_indices_1[i][0], random_indices_1[i][1]]) # sample seed pixel
 
-    print("seed pixel in selected patch class 1")
-    print(selected_patch_1[i][half_patch][half_patch])
+    # print("seed pixel in selected patch class 1")
+    # print(selected_patch_1[i][half_patch][half_patch])
 
     return selected_patch_0, selected_patch_1, random_indices_0, random_indices_1
