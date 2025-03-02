@@ -208,7 +208,7 @@ def radiation_noise(data, alpha_range=(0.9, 1.1), beta=1/25):
     noise = np.random.normal(loc=0., scale=1.0, size=data.shape)
     return alpha * data + beta * noise
 
-def Augment_data2 (x_train,y_train, n_category, n_patch, n_band):
+def Augment_data2 (x_train,y_train, n_category, n_patch, n_band, num_per_category):
     '''
     This augmentation uses Augmentation process in paper 732
     They use radiation_noise
@@ -216,12 +216,12 @@ def Augment_data2 (x_train,y_train, n_category, n_patch, n_band):
     # data_augment=np.zeros((n_category*num_per_category, n_patch, n_patch, n_band))
     # label_augment =np.zeros((n_category*num_per_category),dtype=int)
     
-    data_augment=np.zeros((n_category*200, n_patch, n_patch, n_band))
-    label_augment =np.zeros((n_category*200),dtype=int)
+    data_augment=np.zeros((n_category*num_per_category, n_patch, n_patch, n_band))
+    label_augment =np.zeros((n_category*num_per_category),dtype=int)
     
     number = x_train.shape[0]
     nlabeled = number //n_category
-    n_copy = math.ceil((200 - nlabeled) / nlabeled) + 1
+    n_copy = math.ceil((num_per_category - nlabeled) / nlabeled) + 1
     #rotation 
     k = 0
     for i in range(number):
