@@ -5,3 +5,6 @@ runs/
 models/
 Hyperspectral oil spill detection datasets/
 Hyperspectral oil spill detection datasets.rar
+simsiam/simsiam/__pycache__/
+simsiam/simsiam/simsiam/__pycache__/
+simsiam/simsiam/models/
