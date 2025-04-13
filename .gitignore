@@ -8,3 +8,4 @@ Hyperspectral oil spill detection datasets.rar
 simsiam/simsiam/__pycache__/
 simsiam/simsiam/simsiam/__pycache__/
 simsiam/simsiam/models/
+simsiam/simsiam/model_best.pth.tar
