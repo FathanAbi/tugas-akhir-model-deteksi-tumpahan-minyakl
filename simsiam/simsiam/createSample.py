@@ -44,6 +44,9 @@ def createSample(hsi, patch_size, num_per_class):
     # print(data.shape)
     # print(matrix.shape)
 
+    print(f"indices 0 used: {indices_0}")
+    print(f"indices 1 used: {indices_1}")
+
     for i in range (n): #if padded the index are changing
         # x_pos = indices_0[i][0] - half_patch
         # y_pos = indices_0[i][1] - half_patch
@@ -98,9 +101,7 @@ def getSample(hsi, patch_size, num_per_class, indices_0, indices_1):
             print("indices 1 does not point to label 1")
             return
 
-    print(f"indices 0 used: {indices_0}")
-    print(f"indices 1 used: {indices_1}")
-
+    
     data = training_hsi.img
     patch = patch_size
     n_bands = 224
@@ -118,6 +119,10 @@ def getSample(hsi, patch_size, num_per_class, indices_0, indices_1):
     matrix=zeroPadding.zeroPadding_3D(data,half_patch) #add 0 in every side of the data
     # print(data.shape)
     # print(matrix.shape)
+
+    print(f"indices 0 used: {indices_0}")
+    print(f"indices 1 used: {indices_1}")
+
 
     for i in range (n): #if padded the index are changing
         # x_pos = indices_0[i][0] - half_patch
