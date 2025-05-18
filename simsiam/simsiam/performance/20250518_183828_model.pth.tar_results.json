@@ -1,0 +1,145 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "correct_0": 4491,
+      "correct_1": 4269,
+      "correct_total": 8760,
+      "total": 10000
+    },
+    {
+      "dataset": 1,
+      "correct_0": 518,
+      "correct_1": 4996,
+      "correct_total": 5514,
+      "total": 10000
+    },
+    {
+      "dataset": 2,
+      "correct_0": 3974,
+      "correct_1": 4976,
+      "correct_total": 8950,
+      "total": 10000
+    },
+    {
+      "dataset": 3,
+      "correct_0": 3822,
+      "correct_1": 4999,
+      "correct_total": 8821,
+      "total": 10000
+    },
+    {
+      "dataset": 4,
+      "correct_0": 4242,
+      "correct_1": 4923,
+      "correct_total": 9165,
+      "total": 10000
+    },
+    {
+      "dataset": 5,
+      "correct_0": 4438,
+      "correct_1": 4471,
+      "correct_total": 8909,
+      "total": 10000
+    },
+    {
+      "dataset": 6,
+      "correct_0": 17,
+      "correct_1": 5000,
+      "correct_total": 5017,
+      "total": 10000
+    },
+    {
+      "dataset": 7,
+      "correct_0": 8,
+      "correct_1": 5000,
+      "correct_total": 5008,
+      "total": 10000
+    },
+    {
+      "dataset": 8,
+      "correct_0": 10,
+      "correct_1": 5000,
+      "correct_total": 5010,
+      "total": 10000
+    },
+    {
+      "dataset": 9,
+      "correct_0": 175,
+      "correct_1": 5000,
+      "correct_total": 5175,
+      "total": 10000
+    },
+    {
+      "dataset": 10,
+      "correct_0": 100,
+      "correct_1": 5000,
+      "correct_total": 5100,
+      "total": 10000
+    },
+    {
+      "dataset": 11,
+      "correct_0": 3840,
+      "correct_1": 4998,
+      "correct_total": 8838,
+      "total": 10000
+    },
+    {
+      "dataset": 12,
+      "correct_0": 20,
+      "correct_1": 4997,
+      "correct_total": 5017,
+      "total": 10000
+    },
+    {
+      "dataset": 13,
+      "correct_0": 2,
+      "correct_1": 5000,
+      "correct_total": 5002,
+      "total": 10000
+    },
+    {
+      "dataset": 14,
+      "correct_0": 9,
+      "correct_1": 4993,
+      "correct_total": 5002,
+      "total": 10000
+    },
+    {
+      "dataset": 15,
+      "correct_0": 17,
+      "correct_1": 4997,
+      "correct_total": 5014,
+      "total": 10000
+    },
+    {
+      "dataset": 16,
+      "correct_0": 40,
+      "correct_1": 4999,
+      "correct_total": 5039,
+      "total": 10000
+    },
+    {
+      "dataset": 17,
+      "correct_0": 8,
+      "correct_1": 5000,
+      "correct_total": 5008,
+      "total": 10000
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 25731,
+      "correct_1": 88618,
+      "correct_total": 114349,
+      "total": 180000
+    }
+  ],
+  "performance": {
+    "AUC": 0.6579151092592592,
+    "precision": 0.764329424564385,
+    "recall": 0.6352722222222222,
+    "F1 Score": 0.5845636691559231,
+    "OA": 0.6352722222222222,
+    "AA": 0.6352722222222222
+  }
+}
