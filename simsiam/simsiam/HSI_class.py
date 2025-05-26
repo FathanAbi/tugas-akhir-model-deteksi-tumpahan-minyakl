@@ -22,13 +22,13 @@ class HSI():
         self.img = self.file["img"]
         self.gt = self.file["map"]
 
-        name = path.split("\\")[1]
+        name = path.split("/")[-1]
         self.name = name.split(".")[0] 
 
 
 
 if __name__ == '__main__':
-    hsi = HSI('Hyperspectral oil spill detection datasets\GM01.mat')
+    hsi = HSI('Hyperspectral oil spill detection datasets/GM01.mat')
     # print(hsi.img.shape)
     # print(hsi.gt.shape)
     print(hsi.name)
