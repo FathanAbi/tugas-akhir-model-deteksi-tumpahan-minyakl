@@ -1,0 +1,145 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "correct_0": 4570,
+      "correct_1": 4805,
+      "correct_total": 9375,
+      "total": 10000
+    },
+    {
+      "dataset": 1,
+      "correct_0": 1135,
+      "correct_1": 4991,
+      "correct_total": 6126,
+      "total": 10000
+    },
+    {
+      "dataset": 2,
+      "correct_0": 3740,
+      "correct_1": 4976,
+      "correct_total": 8716,
+      "total": 10000
+    },
+    {
+      "dataset": 3,
+      "correct_0": 3730,
+      "correct_1": 4998,
+      "correct_total": 8728,
+      "total": 10000
+    },
+    {
+      "dataset": 4,
+      "correct_0": 3967,
+      "correct_1": 4940,
+      "correct_total": 8907,
+      "total": 10000
+    },
+    {
+      "dataset": 5,
+      "correct_0": 4371,
+      "correct_1": 4411,
+      "correct_total": 8782,
+      "total": 10000
+    },
+    {
+      "dataset": 6,
+      "correct_0": 4821,
+      "correct_1": 3933,
+      "correct_total": 8754,
+      "total": 10000
+    },
+    {
+      "dataset": 7,
+      "correct_0": 4950,
+      "correct_1": 2093,
+      "correct_total": 7043,
+      "total": 10000
+    },
+    {
+      "dataset": 8,
+      "correct_0": 4925,
+      "correct_1": 1892,
+      "correct_total": 6817,
+      "total": 10000
+    },
+    {
+      "dataset": 9,
+      "correct_0": 602,
+      "correct_1": 4999,
+      "correct_total": 5601,
+      "total": 10000
+    },
+    {
+      "dataset": 10,
+      "correct_0": 1346,
+      "correct_1": 5000,
+      "correct_total": 6346,
+      "total": 10000
+    },
+    {
+      "dataset": 11,
+      "correct_0": 3613,
+      "correct_1": 5000,
+      "correct_total": 8613,
+      "total": 10000
+    },
+    {
+      "dataset": 12,
+      "correct_0": 4974,
+      "correct_1": 808,
+      "correct_total": 5782,
+      "total": 10000
+    },
+    {
+      "dataset": 13,
+      "correct_0": 4952,
+      "correct_1": 2384,
+      "correct_total": 7336,
+      "total": 10000
+    },
+    {
+      "dataset": 14,
+      "correct_0": 2918,
+      "correct_1": 5000,
+      "correct_total": 7918,
+      "total": 10000
+    },
+    {
+      "dataset": 15,
+      "correct_0": 3186,
+      "correct_1": 5000,
+      "correct_total": 8186,
+      "total": 10000
+    },
+    {
+      "dataset": 16,
+      "correct_0": 4949,
+      "correct_1": 2601,
+      "correct_total": 7550,
+      "total": 10000
+    },
+    {
+      "dataset": 17,
+      "correct_0": 4899,
+      "correct_1": 4609,
+      "correct_total": 9508,
+      "total": 10000
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 67648,
+      "correct_1": 72440,
+      "correct_total": 140088,
+      "total": 180000
+    }
+  ],
+  "performance": {
+    "AUC": 0.8720245260493827,
+    "precision": 0.7790577873632689,
+    "recall": 0.7782666666666667,
+    "F1 Score": 0.7781094033225117,
+    "OA": 0.7782666666666667,
+    "AA": 0.7782666666666667
+  }
+}

@@ -199,7 +199,7 @@ def Augment_data (x_train,y_train, n_category, n_patch, n_band, num_per_category
                 label_augment[j]=y_train[i]
                 j=j+1
                 
-    print ("j: ",j)
+    # print ("j: ",j)
     return data_augment, label_augment
 
 
