@@ -1,0 +1,89 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "correct_0": 2325,
+      "correct_1": 3463,
+      "correct_total": 5788,
+      "total": 10000
+    },
+    {
+      "dataset": 1,
+      "correct_0": 2417,
+      "correct_1": 2937,
+      "correct_total": 5354,
+      "total": 10000
+    },
+    {
+      "dataset": 2,
+      "correct_0": 4409,
+      "correct_1": 1539,
+      "correct_total": 5948,
+      "total": 10000
+    },
+    {
+      "dataset": 3,
+      "correct_0": 4430,
+      "correct_1": 421,
+      "correct_total": 4851,
+      "total": 10000
+    },
+    {
+      "dataset": 4,
+      "correct_0": 1485,
+      "correct_1": 4430,
+      "correct_total": 5915,
+      "total": 10000
+    },
+    {
+      "dataset": 5,
+      "correct_0": 3784,
+      "correct_1": 1899,
+      "correct_total": 5683,
+      "total": 10000
+    },
+    {
+      "dataset": 6,
+      "correct_0": 4797,
+      "correct_1": 228,
+      "correct_total": 5025,
+      "total": 10000
+    },
+    {
+      "dataset": 7,
+      "correct_0": 4797,
+      "correct_1": 241,
+      "correct_total": 5038,
+      "total": 10000
+    },
+    {
+      "dataset": 8,
+      "correct_0": 4554,
+      "correct_1": 321,
+      "correct_total": 4875,
+      "total": 10000
+    },
+    {
+      "dataset": 9,
+      "correct_0": 4040,
+      "correct_1": 339,
+      "correct_total": 4379,
+      "total": 10000
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 37038,
+      "correct_1": 15818,
+      "correct_total": 52856,
+      "total": 100000
+    }
+  ],
+  "performance": {
+    "AUC": 0.4691821976,
+    "precision": 0.5348341688655126,
+    "recall": 0.5285599999999999,
+    "F1 Score": 0.5063306414405226,
+    "OA": 0.52856,
+    "AA": 0.5285599999999999
+  }
+}

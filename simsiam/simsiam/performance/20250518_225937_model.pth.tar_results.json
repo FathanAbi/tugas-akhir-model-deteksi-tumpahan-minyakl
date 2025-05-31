@@ -2,144 +2,95 @@
   "prediction": [
     {
       "dataset": 0,
-      "correct_0": 4729,
-      "correct_1": 4563,
-      "correct_total": 9292,
+      "correct_0": 4693,
+      "correct_1": 4560,
+      "correct_total": 9253,
       "total": 10000
     },
     {
       "dataset": 1,
-      "correct_0": 1404,
+      "correct_0": 1395,
       "correct_1": 5000,
-      "correct_total": 6404,
+      "correct_total": 6395,
       "total": 10000
     },
     {
       "dataset": 2,
-      "correct_0": 4038,
-      "correct_1": 4971,
-      "correct_total": 9009,
+      "correct_0": 4083,
+      "correct_1": 4966,
+      "correct_total": 9049,
       "total": 10000
     },
     {
       "dataset": 3,
-      "correct_0": 4605,
-      "correct_1": 4982,
-      "correct_total": 9587,
+      "correct_0": 4623,
+      "correct_1": 4977,
+      "correct_total": 9600,
       "total": 10000
     },
     {
       "dataset": 4,
-      "correct_0": 4318,
-      "correct_1": 4895,
-      "correct_total": 9213,
+      "correct_0": 4346,
+      "correct_1": 4893,
+      "correct_total": 9239,
       "total": 10000
     },
     {
       "dataset": 5,
-      "correct_0": 4680,
-      "correct_1": 4614,
-      "correct_total": 9294,
+      "correct_0": 4700,
+      "correct_1": 4617,
+      "correct_total": 9317,
       "total": 10000
     },
     {
       "dataset": 6,
-      "correct_0": 4299,
-      "correct_1": 4816,
-      "correct_total": 9115,
+      "correct_0": 4338,
+      "correct_1": 4828,
+      "correct_total": 9166,
       "total": 10000
     },
     {
       "dataset": 7,
-      "correct_0": 4852,
-      "correct_1": 3819,
-      "correct_total": 8671,
+      "correct_0": 4864,
+      "correct_1": 3802,
+      "correct_total": 8666,
       "total": 10000
     },
     {
       "dataset": 8,
-      "correct_0": 4795,
-      "correct_1": 3689,
-      "correct_total": 8484,
+      "correct_0": 4811,
+      "correct_1": 3634,
+      "correct_total": 8445,
       "total": 10000
     },
     {
       "dataset": 9,
-      "correct_0": 4486,
-      "correct_1": 4242,
-      "correct_total": 8728,
+      "correct_0": 4524,
+      "correct_1": 4235,
+      "correct_total": 8759,
       "total": 10000
     },
     {
       "dataset": 10,
-      "correct_0": 4549,
-      "correct_1": 4959,
-      "correct_total": 9508,
-      "total": 10000
-    },
-    {
-      "dataset": 11,
-      "correct_0": 4112,
-      "correct_1": 4999,
-      "correct_total": 9111,
-      "total": 10000
-    },
-    {
-      "dataset": 12,
-      "correct_0": 4957,
-      "correct_1": 3046,
-      "correct_total": 8003,
-      "total": 10000
-    },
-    {
-      "dataset": 13,
-      "correct_0": 4719,
-      "correct_1": 4274,
-      "correct_total": 8993,
-      "total": 10000
-    },
-    {
-      "dataset": 14,
-      "correct_0": 3510,
-      "correct_1": 4985,
-      "correct_total": 8495,
-      "total": 10000
-    },
-    {
-      "dataset": 15,
-      "correct_0": 3812,
-      "correct_1": 4999,
-      "correct_total": 8811,
-      "total": 10000
-    },
-    {
-      "dataset": 16,
-      "correct_0": 4929,
-      "correct_1": 3440,
-      "correct_total": 8369,
-      "total": 10000
-    },
-    {
-      "dataset": 17,
-      "correct_0": 4633,
-      "correct_1": 4978,
-      "correct_total": 9611,
+      "correct_0": 4572,
+      "correct_1": 4973,
+      "correct_total": 9545,
       "total": 10000
     },
     {
       "dataset": "Total Dataset",
-      "correct_0": 77427,
-      "correct_1": 81271,
-      "correct_total": 158698,
-      "total": 180000
+      "correct_0": 46949,
+      "correct_1": 50485,
+      "correct_total": 97434,
+      "total": 110000
     }
   ],
   "performance": {
-    "AUC": 0.9133564569135803,
-    "precision": 0.882353058922131,
-    "recall": 0.8816555555555555,
-    "F1 Score": 0.8816015587916923,
-    "OA": 0.8816555555555555,
-    "AA": 0.8816555555555555
+    "AUC": 0.9104172900826446,
+    "precision": 0.8873647391715122,
+    "recall": 0.8857636363636363,
+    "F1 Score": 0.8856454703691806,
+    "OA": 0.8857636363636363,
+    "AA": 0.8857636363636363
   }
 }
