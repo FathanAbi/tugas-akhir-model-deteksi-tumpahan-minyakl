@@ -1,0 +1,37 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "class0_size": 820876,
+      "class1_size": 29336,
+      "correct_0": 800075,
+      "correct_1": 19547,
+      "correct_total": 819622,
+      "total": 850212
+    },
+    {
+      "dataset": 1,
+      "class0_size": 1236269,
+      "class1_size": 12145,
+      "correct_0": 506492,
+      "correct_1": 12145,
+      "correct_total": 518637,
+      "total": 1248414
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 1306567,
+      "correct_1": 31692,
+      "correct_total": 1338259,
+      "total": 2098626
+    }
+  ],
+  "performance": {
+    "AUC": 0.699574256970567,
+    "precision": 0.5165382141172217,
+    "recall": 0.699574256970567,
+    "F1 Score": 0.42577577379390164,
+    "OA": 0.6376834176265804,
+    "AA": 0.699574256970567
+  }
+}

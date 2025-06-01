@@ -1,0 +1,40 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "correct_0": 50,
+      "correct_1": 31,
+      "correct_total": 81,
+      "total": 100
+    },
+    {
+      "dataset": 1,
+      "correct_0": 23,
+      "correct_1": 50,
+      "correct_total": 73,
+      "total": 100
+    },
+    {
+      "dataset": 2,
+      "correct_0": 43,
+      "correct_1": 50,
+      "correct_total": 93,
+      "total": 100
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 116,
+      "correct_1": 131,
+      "correct_total": 247,
+      "total": 300
+    }
+  ],
+  "performance": {
+    "AUC": 0.8233333333333333,
+    "precision": 0.8265993265993266,
+    "recall": 0.8233333333333333,
+    "F1 Score": 0.822890559732665,
+    "OA": 0.8233333333333334,
+    "AA": 0.8233333333333333
+  }
+}
