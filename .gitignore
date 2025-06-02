@@ -11,3 +11,5 @@ simsiam/simsiam/models/
 simsiam/simsiam/hasil_prediksi_matiks/
 simsiam/simsiam/model_best.pth.tar
 simsiam/simsiam/predictions/
+simsiam/simsiam/linux/predictions
+jupyterlab.log
