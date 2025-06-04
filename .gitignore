@@ -14,3 +14,7 @@ simsiam/simsiam/predictions/
 simsiam/simsiam/linux/predictions
 simsiam/simsiam/windows/predictions
 jupyterlab.log
+simsiam/simsiam/TESTING/MyMethod/predictions/
+simsiam/simsiam/TESTING/LR/predictions/
+simsiam/simsiam/TESTING/RF/predictions/
+simsiam/simsiam/TESTING/SVM/predictions/
