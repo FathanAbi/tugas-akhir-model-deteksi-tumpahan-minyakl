@@ -18,3 +18,6 @@ simsiam/simsiam/TESTING/MyMethod/predictions/
 simsiam/simsiam/TESTING/LR/predictions/
 simsiam/simsiam/TESTING/RF/predictions/
 simsiam/simsiam/TESTING/SVM/predictions/
+simsiam/simsiam/TESTING/1DCNN/predictions/
+simsiam/simsiam/TESTING/2DCNN/predictions/
+simsiam/simsiam/TESTING/HybridSN/predictions/
