@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON file
-with open(r'C:\Users\Asus TUF\Documents\code\TA\simsiam\simsiam\TESTING\RF\performance\RF 20250611_120842_results.json', 'r') as f:
+with open(r'C:\Users\Asus TUF\Documents\code\TA\simsiam\simsiam\TESTING\MyMethod\performance\MyMethod 20250612_121834_results.json', 'r') as f:
     data = json.load(f)
 
 # Extract the performance dictionary
