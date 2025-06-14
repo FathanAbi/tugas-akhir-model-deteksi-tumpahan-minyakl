@@ -1,0 +1,111 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 4213,
+      "correct_1": 4885,
+      "correct_total": 9098,
+      "total": 10000
+    },
+    {
+      "dataset": 1,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 304,
+      "correct_1": 5000,
+      "correct_total": 5304,
+      "total": 10000
+    },
+    {
+      "dataset": 2,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 3090,
+      "correct_1": 4995,
+      "correct_total": 8085,
+      "total": 10000
+    },
+    {
+      "dataset": 3,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 2975,
+      "correct_1": 5000,
+      "correct_total": 7975,
+      "total": 10000
+    },
+    {
+      "dataset": 4,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 2573,
+      "correct_1": 4999,
+      "correct_total": 7572,
+      "total": 10000
+    },
+    {
+      "dataset": 5,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 2923,
+      "correct_1": 4997,
+      "correct_total": 7920,
+      "total": 10000
+    },
+    {
+      "dataset": 6,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 0,
+      "correct_1": 5000,
+      "correct_total": 5000,
+      "total": 10000
+    },
+    {
+      "dataset": 7,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 0,
+      "correct_1": 5000,
+      "correct_total": 5000,
+      "total": 10000
+    },
+    {
+      "dataset": 8,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 0,
+      "correct_1": 5000,
+      "correct_total": 5000,
+      "total": 10000
+    },
+    {
+      "dataset": 9,
+      "class0_size": 5000,
+      "class1_size": 5000,
+      "correct_0": 0,
+      "correct_1": 5000,
+      "correct_total": 5000,
+      "total": 10000
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 16078,
+      "correct_1": 49876,
+      "class0_total": 50000,
+      "class1_total": 50000,
+      "correct_total": 65954,
+      "total": 100000
+    }
+  ],
+  "performance": {
+    "AUC": 0.7042811506,
+    "precision": 0.7937699132876654,
+    "recall": 0.65954,
+    "F1 Score": 0.6156336468275105,
+    "OA": 0.65954,
+    "AA": 0.65954
+  }
+}
