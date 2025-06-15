@@ -1,0 +1,111 @@
+{
+  "prediction": [
+    {
+      "dataset": 0,
+      "class0_size": 820876,
+      "class1_size": 29336,
+      "correct_0": 748012,
+      "correct_1": 26406,
+      "correct_total": 774418,
+      "total": 850212
+    },
+    {
+      "dataset": 1,
+      "class0_size": 1236269,
+      "class1_size": 12145,
+      "correct_0": 364713,
+      "correct_1": 12145,
+      "correct_total": 376858,
+      "total": 1248414
+    },
+    {
+      "dataset": 2,
+      "class0_size": 916980,
+      "class1_size": 39360,
+      "correct_0": 751870,
+      "correct_1": 38979,
+      "correct_total": 790849,
+      "total": 956340
+    },
+    {
+      "dataset": 3,
+      "class0_size": 959167,
+      "class1_size": 31849,
+      "correct_0": 851519,
+      "correct_1": 31816,
+      "correct_total": 883335,
+      "total": 991016
+    },
+    {
+      "dataset": 4,
+      "class0_size": 1363408,
+      "class1_size": 58562,
+      "correct_0": 1169996,
+      "correct_1": 57665,
+      "correct_total": 1227661,
+      "total": 1421970
+    },
+    {
+      "dataset": 5,
+      "class0_size": 1389552,
+      "class1_size": 53256,
+      "correct_0": 1330733,
+      "correct_1": 44113,
+      "correct_total": 1374846,
+      "total": 1442808
+    },
+    {
+      "dataset": 6,
+      "class0_size": 873365,
+      "class1_size": 93415,
+      "correct_0": 873137,
+      "correct_1": 3618,
+      "correct_total": 876755,
+      "total": 966780
+    },
+    {
+      "dataset": 7,
+      "class0_size": 824964,
+      "class1_size": 43680,
+      "correct_0": 824866,
+      "correct_1": 1727,
+      "correct_total": 826593,
+      "total": 868644
+    },
+    {
+      "dataset": 8,
+      "class0_size": 742935,
+      "class1_size": 68238,
+      "correct_0": 740346,
+      "correct_1": 271,
+      "correct_total": 740617,
+      "total": 811173
+    },
+    {
+      "dataset": 9,
+      "class0_size": 691437,
+      "class1_size": 45683,
+      "correct_0": 671993,
+      "correct_1": 29078,
+      "correct_total": 701071,
+      "total": 737120
+    },
+    {
+      "dataset": "Total Dataset",
+      "correct_0": 8327185,
+      "correct_1": 245818,
+      "class0_total": 9818953,
+      "class1_total": 475524,
+      "correct_total": 8573003,
+      "total": 10294477
+    }
+  ],
+  "performance": {
+    "AUC": 0.6941350648471593,
+    "precision": 0.5573132101261118,
+    "recall": 0.6825069555301003,
+    "F1 Score": 0.5642328786737696,
+    "OA": 0.8327769346611781,
+    "AA": 0.6825069555301003
+  }
+}
