@@ -1,7 +1,7 @@
 import json
 
 # Load the JSON file
-with open(r'C:\Users\Asus TUF\Documents\code\TA\simsiam\simsiam\TESTING\SVM\performance\SVM 20250617_164625_results.json', 'r') as f:
+with open(r'C:\Users\PC\Documents\code\TA\tugas-akhir-model-deteksi-tumpahan-minyakl\simsiam\simsiam\TESTING\HybridSN\performance\HybridSN 20250617_184623_results.json', 'r') as f:
     data = json.load(f)
 
 predictions = data.get('prediction')
