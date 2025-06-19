@@ -23,3 +23,4 @@ simsiam/simsiam/TESTING/2DCNN/predictions/
 simsiam/simsiam/TESTING/HybridSN/predictions/
 simsiam/simsiam/TESTING/MyMethod/model_best.pth.tar
 simsiam/simsiam/TESTING/new_mymethod/predictions/
+simsiam/simsiam/TESTING/final_method/predictions
